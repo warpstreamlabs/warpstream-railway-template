@@ -2,5 +2,5 @@
 builder = "DOCKERFILE"
 
 [deploy]
-startCommand = "warpstream agent"
+startCommand = "/warpstream agent"
 restartPolicyType = "always"
